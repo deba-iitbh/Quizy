@@ -10,11 +10,11 @@ Create a `.env` file, and fill the `MongoURL`
 MongoURL="mongodb+srv://<username>:<password>@<DBURL>"
 ```
 
-## INSTRUCTIONS
-- Install MongoDB: 'sudo apt-get install mongodb'
-- Start MongoDB: 'Sudo service mongodb start'
-- Make sure all node modules have been installed listed in package.json: express, moment, mongodb, mongoose, socket.io
-- Start Server: nodejs server/server.js
+## Instructions
+- Install MongoDB: `sudo apt-get install mongodb`
+- Start MongoDB: `Sudo service mongodb start`
+- Install node modules: `npm install`.
+- Start Server: `nodejs server/server.js`
 
 ## UI
 
