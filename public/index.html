@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Quizy</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="mainpage-container">
+    <div class="header">
+      <div class="logo">
+        <h1>Quizy</h1>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="home" class="home-container">
+      <h1>Quizy</h1>
+      <button class="start-button" id="start">START</button>
+    </div>
+    <hr />
+    <div id="about" class="about-container">
+      <div class="about-header">
+        <h1>About Us</h1>
+        <hr />
+      </div>
+      <div class="aboutUs-p">
+        <p>
+                Quiz-y: Make Quizing Fun!!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class='teacherOrStudentContainer'>
+    <div class='backHeader'>
+      <div class='backBtn'>
+        <button>
+          <img id="backMain" src="assets\backBtn.png" />
+        </button>
+      </div>
+    </div>
+    <div class='teacherOrStudent'>
+      <div class='student'>
+        <img src="assets\teacher-student\student.png"></img>
+        <button id="student" class='student-button'>STUDENT</button>
+      </div>
+      <div class='teacher'>
+        <img src="assets\teacher-student\teacher.png"></img>
+        <a id="host" class='teacher-button'>TEACHER</a>
+      </div>
+    </div>
+  </div>
+  <div class="studentContainer">
+    <div class='backHeader'>
+      <div class='backBtn'>
+        <button>
+          <img id="backTS" src="assets\backBtn.png" />
+        </button>
+      </div>
+    </div>
+    <form class="studentForm" action="/player/">
+      <div class="form-field1">
+        <label id="label">Display Name</label>
+        <input id="name" type="text" name="name" autofocus />
+      </div>
+      <div class="form-field2">
+        <label id="label">Enter Code</label>
+        <input id="pin" type="number" name="pin" />
+      </div>
+      <div class="form-field">
+        <button id="joinButton">Enter</button>
+      </div>
+    </form>
+  </div>
+</body>
+<script src="./js/mainNavigate.js"></script>
+
+</html>
